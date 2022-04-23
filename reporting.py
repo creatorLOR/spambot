@@ -3,6 +3,8 @@
 # friend: ali , mmd
 
 # python mmd ryson , ali lor
+
+# آخرین ابزار من برای روبیکایی ها
 #__
 import os
 import time
@@ -195,7 +197,10 @@ time: ({timer})
 
 time: ({timer})
 
-({cod}) ]]"""]
+({cod}) ]]""",f"""
+(( Playing pornographic and inappropriate and illegal content and spam, please be sure to report this user !! : ({username}) \n\ntime: ({timer})\n\n({cod}) ))"""]
+
+#the
 
 rand1 = (random.choice(rand))
 
@@ -392,6 +397,10 @@ baner = f"""
 target: {username}
 
 time spam: {timer}
+
+script: LOR
+
+time left: 1 min
 ------------------
 
 
