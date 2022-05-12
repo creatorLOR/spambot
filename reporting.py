@@ -71,7 +71,7 @@ banner = [f"""
     \   ^__^
      \  (oo)\_______
         (__)\       )\/\
-            ||----w |
+            ||—————||
             ||     ||
 
                 
@@ -81,7 +81,7 @@ banner = [f"""
 |___/| .__/  \__,_||_| |_| |_|
     {pink} |_|                      
      
-     v-1                                            
+    {red} v-1                                            
 """,F"""
                {blue}______         _____ 
 ______________ ___  /_ ______ __  /_
@@ -129,7 +129,7 @@ spam = f"""
      {blue}      ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
 
 
-{green}| time: {timer} |
+{red}| {green}time{darkblue}: {yellow}{timer} {red}|
 
 
 {yellow}type {red}>{yellow}'{blue}acc{yellow}'{red}<{green} spam rubika {pink}@{darkblue}supportbot
@@ -146,7 +146,7 @@ for mmd in spam:
     time.sleep(0.01)
 #
 
-spammer = input(f"{yellow}please enter your type spam {red}⟩⟩ {white}")
+spammer = input(f"{green}please enter your type spam {red}⟩⟩ {white}")
 
 print ()
 print ()
@@ -176,14 +176,14 @@ print("<>")
 time.sleep(0.5)
 print()
 print(f"{darkblue}")
-username = input(f"{darkblue}please enter username target {pink}[{yellow}@username{pink}] {green}⟩⟩ {white}")
+username = input(f"{darkblue}please enter username target {pink}[{blue}@username{pink}] {green}⟩⟩ {white}")
 
 time.sleep(1)
 
 print ()
 # spcial !
 
-x = (f"""{yellow}spam for username {pink}[{green}{username}{pink}] {yellow}please transfer {pink}>> {green}rubika.ir/supportbot""")
+x = (f"""{blue}spam for username {pink}[{green}{username}{pink}] {blue}please transfer {pink}>> {green}rubika.ir/supportbot""")
 #_
  
 # account spam
