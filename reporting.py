@@ -266,7 +266,7 @@ if spammer == "acc":
     print ()
     print(f"{blue}")
     time.sleep(1)
-    print("spam support bot {darkblue}↓↓↓↓ :")
+    print(f"spam support bot {darkblue}↓↓↓↓ :")
     time.sleep(0.5)
     print()
     print()
@@ -422,19 +422,19 @@ time left: {red}1 min{blue}
 ------------------
 {darkblue}
 
-###### # #      ##### ###### #####  # #    #  ####
- #      # #        #   #      #    # # ##   # #    #
- #####  # #        #   #####  #    # # # #  # #
- #      # #        #   #      #####  # #  # # #  ###
- #      # #        #   #      #   #  # #   ## #    #
- #      # ######   #   ###### #    # # #    #  ####
+ ######  # #      #####  ######  #####   #  #    #   ####
+ #       # #        #    #       #    #  #  ##   #  #    #
+ #####   # #        #    #####   #    #  #  # #  #  #
+ #       # #        #    #       #####   #  #  # #  #  ###
+ #       # #        #    #       #   #   #  #   ##  #    #
+ #       # ######   #    ######  #    #  #  #    #   ####
 
-{green}
+{blue}
 -----------------------------------
-{pink}info: {yellow}[ali-lor.blogfa.com] {blue}-ali lor{green}
+{pink}info: {yellow}[ali-lor.blogfa.com] {blue}-ali lor{blue}
 -----------------------------------
 ----------------------------------
-{pink}info: {yellow}[creater.blog.ir] {blue}-mmd ryson{green}
+{pink}info: {yellow}[creater.blog.ir] {blue}-mmd ryson{blue}
 ----------------------------------
 
 """
