@@ -289,7 +289,7 @@ if spammer == "channel".lower():
         if req.status_code == 200:
             print()
             print(F'{yellow}')
-            print ("channel found *_*")
+            print (f"{yellow}channel found {pink}*_*")
             time.sleep(1)
             #
 
@@ -452,5 +452,5 @@ if exit == 2:
     sys.exit()
     os.system("exit 0")
     
-sys.exit()
+
 # the end :))    
