@@ -26,7 +26,7 @@ white = "\033[00m"
 darkblue = "\033[34m"
 
 print()
-yea = input(f"{blue}dadash! ♥️ {green}ketabkhuneh haro barat nasb konam ya na{pink}? \n\n {yellow}(y/n) {blue}>>>> {green}")
+yea = input(f"{blue}dadash! ♥️ {green}ketabkhuneh haro barat nasb konam ya na{pink}? \n\n {yellow}(y/n) {blue}>>>> {darkblue}")
 print()
 print()
 if yea == "y".lower():
