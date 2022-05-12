@@ -23,7 +23,7 @@ white = "\033[00m"
 darkblue = "\033[34m"
 
 print()
-yea = input(f"{blue}dadash! ♥️ {green}ketabkhuneh haro barat nasb konam ya na{pink}? \n\n {yellow}(y/n) {blue}>>>> ")
+yea = input(f"{blue}dadash! ♥️ {green}ketabkhuneh haro barat nasb konam ya na{pink}? \n\n {yellow}(y/n) {blue}>>>> {green}")
 print()
 print()
 if yea == "y".lower():
@@ -218,7 +218,7 @@ time: ({timer})
 
 rand1 = (random.choice(rand))
 
-print (Fore.YELLOW + '')
+print (F'{yellow}')
 # channel spam
 rando = [f"""
 
