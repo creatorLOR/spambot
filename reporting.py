@@ -8,7 +8,6 @@
 #__
 import os
 import time
-# is not colorama and colored ! 
 #___
 try:
     os.system("clear")
@@ -32,6 +31,10 @@ print()
 print()
 if yea == "y".lower():
     print()
+    try:
+        import colorama
+    except:
+        os.system("pip install colorama")
     try:
         import requests
     except:
@@ -58,7 +61,7 @@ import sys , requests
 
 import random
 import datetime
-
+from colorama import Fore
 #___
 
 os.system("clear")
@@ -173,10 +176,10 @@ print("\rscanning..........",end="",flush=False)
 time.sleep(1)
 print("\r scanned          ",end="",flush=False)
 time.sleep(1)
-print (F'{pink}')
 print()
 print()
-print("<>")
+print(Fore.WHITE + "<<<=>>>")
+print ()
 time.sleep(0.5)
 print()
 print(f"{darkblue}")
