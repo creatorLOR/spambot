@@ -13,19 +13,35 @@ os.system("clear")
 
 time.sleep(0.5)
 
+# color's !!!!!!
+green = "\033[32m"
+red = "\033[31m"
+blue = "\033[36m"
+pink = "\033[35m"
+yellow = "\033[93m"
+white = "\033[00m"
+darkblue = "\033[34m"
+
 print()
-yea = input("dadash! ♥️ ketabkhuneh haro barat nasb konam ya na? \n\n (y/n) >>>> ")
+yea = input(f"{blue}dadash! ♥️ {green}ketabkhuneh haro barat nasb konam ya na{pink}? \n\n {yellow}(y/n) {blue}>>>> ")
 print()
 print()
 if yea == "y".lower():
     print()
-    os.system("pip install requests")
-    os.system("pip install colored")
-    os.system("pip install colorama")
-    os.system("pip install datetime")
-    os.system("pip install flags")
+    try:
+        import requests
+    except:
+        os.system("pip install requests")
+    try:
+        import datetime
+    except:
+        os.system("pip3 install datetime")
+    try:
+        import flags
+    except:
+        os.system("pip3 install flags")
     print()
-    print("haleh dadash")
+    print(f"{darkblue}haleh dadash")
     #
 #
 
@@ -33,10 +49,8 @@ if yea == "n".lower():
     print()
 # importings __
 import string
-import sys , requests, colorama, colored
+import sys , requests
 
-from colored import fg, bg, attr
-from colorama import Fore, Back, Style
 
 import random
 import datetime
@@ -49,10 +63,10 @@ time.sleep(0.5)
 print ()
 os.system("clear")
 time.sleep(1)
-print (Fore.YELLOW + '')
+print (F'{yellow}')
 print ("\n"*2)
 #bnr
-banner = ["""
+banner = [f"""
    
     \   ^__^
      \  (oo)\_______
@@ -61,19 +75,19 @@ banner = ["""
             ||     ||
 
                 
- ___  _ __    __ _  _ __ ___  
+{blue} ___  _ __    __ _  _ __ ___  
 / __|| '_ \  / _` || '_ ` _ \ 
-\__ \| |_) || (_| || | | | | |
+\__ \| |_) || (_| || | | | | |{darkblue}
 |___/| .__/  \__,_||_| |_| |_|
-     |_|                      
+    {pink} |_|                      
      
      v-1                                            
-""","""
-               ______         _____ 
+""",F"""
+               {blue}______         _____ 
 ______________ ___  /_ ______ __  /_
-__  ___/_  __ \__  __ \_  __ \_  __/
+__  ___/_  __ \__  __ \_  __ \_  __/{darkblue}
 _  /    / /_/ /_  /_/ // /_/ // /_  
-/_/     \____/ /_.___/ \____/ \__/  
+/_/     \____/ /_.___/ \____/ \__/  {pink}
                                     
 
 """]
@@ -104,25 +118,25 @@ cod = (random_string_generator(size, chars))
 print ()
 time.sleep(1)
 print ()
-print (Fore.GREEN + '')
+print (F'{green}')
 
 spam = f"""
-       ⟩ LOR SCRIPT ⟨
+      {red} ⟩{green} LOR SCRIPT{red} ⟨
     
             
-           ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
-           ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
-           ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
+    {pink}       ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
+       {yellow}    ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
+     {blue}      ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
 
 
-| time: {timer} |
+{green}| time: {timer} |
 
 
-type >'acc'< spam rubika @supportbot
+{yellow}type {red}>{yellow}'{blue}acc{yellow}'{red}<{green} spam rubika {pink}@{darkblue}supportbot
 
-type >'channel'< spam rubika @supportbot
+{yellow}type {red}>{yellow}'{blue}channel{yellow}'{red}<{green} spam rubika {pink}@{darkblue}supportbot
 
-type >'group'< spam rubika @supportbot
+{yellow}type {red}>{yellow}'{blue}group{yellow}'{red}<{green} spam rubika {pink}@{darkblue}supportbot
 
 
 """
@@ -131,12 +145,12 @@ for mmd in spam:
     sys.stdout.flush()
     time.sleep(0.01)
 #
-print(Fore.YELLOW + '')
-spammer = input("please enter your type spam ⟩⟩ ")
+
+spammer = input(f"{yellow}please enter your type spam {red}}⟩⟩ {white}")
 
 print ()
 print ()
-print (Fore.BLUE +"")
+print (blue)
 print("\rscanning..",end="",flush=False)
 time.sleep(1)
 print("\rscanning....",end="",flush=False)
@@ -155,21 +169,21 @@ print("\rscanning..........",end="",flush=False)
 time.sleep(1)
 print("\r scanned          ",end="",flush=False)
 time.sleep(1)
-print (Fore.WHITE + '')
+print (F'{pink}')
 print()
 print()
 print("<>")
 time.sleep(0.5)
 print()
-print(Fore.BLUE + '')
-username = input("please enter username target [@username] ⟩⟩ ")
+print(f"{darkblue}")
+username = input(f"{darkblue}please enter username target {pink}[{yellow}@username{pink}] {green}⟩⟩ {white}")
 
 time.sleep(1)
 
 print ()
 # spcial !
 
-x = (f"""spam for username [{username}] please transfer >> rubika.ir/supportbot""")
+x = (f"""{yellow}spam for username {pink}[{green}{username}{pink}] {yellow}please transfer {pink}>> {green}rubika.ir/supportbot""")
 #_
  
 # account spam
@@ -240,22 +254,22 @@ randi1 = (random.choice(randi))
 if spammer == "acc":
     ##
     print ()
-    print(Fore.BLUE + '')
+    print(f"{blue}")
     time.sleep(1)
-    print("spam support bot ↓↓↓↓ :")
+    print("spam support bot {darkblue}↓↓↓↓ :")
     time.sleep(0.5)
     print()
     print()
-    print(Fore.GREEN + '')
+    print(f"{green}")
     print("________________________")
     time.sleep(1)
-    print (Fore.YELLOW + '')
+    print (f"{yellow}")
     print (rand1)
     print ()
-    print(Fore.GREEN + '')
+    print(F"{green}")
     time.sleep(0.5)
     print("________________________")
-    print (Fore.RED + '')
+    print (F'{red}')
     time.sleep(1)
     print (x)
     print ()
@@ -263,26 +277,26 @@ if spammer == "acc":
 if spammer == "channel".lower():
     time.sleep(1)
     print()
-    print(Fore.GREEN + '')
-    user = input("url target check? (y/n) ⟩⟩⟩ ")
+    print(F'{green}')
+    user = input(f"url target check{pink}? {darkblue}(y/n) {yellow}⟩⟩⟩ {white}")
     if user == "y".lower():
         time.sleep(0.5)
-        print(Fore.BLUE + '')
+        print(F'{blue}')
         print()
-        usr = input("enter url target rubika don't '@'  ⟩⟩⟩ ")
+        usr = input(f"{blue}enter url target rubika dont {darkblue}'{yellow}@{darkblue}'  {pink}⟩⟩⟩ {white}")
         print()
         req = requests.get(f"https://rubika.ir/{usr}")
         if req.status_code == 200:
             print()
-            print(Fore.YELLOW + '')
+            print(F'{yellow}')
             print ("channel found *_*")
             time.sleep(1)
             #
 
         elif req.status_code == 404:
             print()
-            print(Fore.RED + '')
-            print ("not found channel *_*")
+            
+            print (f"{red}not found channel {pink}*_*")
             print()
             time.sleep(1)
             #
@@ -290,8 +304,8 @@ if spammer == "channel".lower():
 
         elif req.status_code == 302:
             print()
-            print(Fore.RED + '')
-            print("not found channel *_*")
+            
+            print(f"{red}not found channel{pink} *_*")
             print()
             time.sleep(1)
             #
@@ -305,20 +319,20 @@ if spammer == "channel".lower():
     time.sleep(1)
     print()
     print ()
-    print(Fore.BLUE + '')
-    print("spam support bot ↓↓↓↓ :")
+  
+    print(f"{blue}spam support bot {darkblue}↓↓↓↓ :")
     print()
     time.sleep(1)
-    print(Fore.GREEN + '')
-    print("________________________")
+    
+    print(f"{green}________________________")
     time.sleep(0.5)
-    print (Fore.YELLOW + '')
+    print (F'{yellow}')
     print (rando1)
     print ()
     time.sleep(0.5)
-    print(Fore.GREEN + '')
-    print("________________________")
-    print (Fore.RED + '')
+    
+    print(f"{green}________________________")
+    print (F'{red}')
     time.sleep(1)
     print (x)
     print ()
@@ -327,26 +341,22 @@ if spammer == "channel".lower():
 if spammer == "group".lower():
     time.sleep(1)
     print()
-    print(Fore.GREEN + '')
-    user1 = input("url target check? (y/n) ⟩⟩⟩ ")
+    user1 = input(f"{green}url target check{pink}?{yellow} (y/n){pink} ⟩⟩⟩ {white}")
     if user == "y".lower():
         time.sleep(0.5)
-        print(Fore.BLUE + '')
         print()
-        usr1 = input("enter url target rubika type group  ⟩⟩⟩ ")
+        usr1 = input(f"{blue}enter url target rubika type group  {pink}⟩⟩⟩ {white}")
         print()
         reqs = requests.get(f"{usr1}")
         if reqs.status_code == 200:
             print()
-            print(Fore.YELLOW + '')
-            print ("group found *_*")
+            print (f"{yellow}group found {pink}*_*")
             time.sleep(1)
             #
 
         elif reqs.status_code == 404:
             print()
-            print(Fore.RED + '')
-            print ("not found group *_*")
+            print (f"{red}not found group{pink} *_*")
             print()
             time.sleep(1)
             #
@@ -354,8 +364,7 @@ if spammer == "group".lower():
 
         elif reqs.status_code == 302:
             print()
-            print(Fore.RED + '')
-            print("not found group *_*")
+            print(f"{red}not found group {pink}*_*")
             print()
             time.sleep(1)
             #
@@ -365,21 +374,20 @@ if spammer == "group".lower():
     time.sleep(2)
     print()
     print ()
-    print(Fore.BLUE + '')
-    print("spam support bot ↓↓↓ : ")
+    print(f"{blue}spam support bot{darkblue} ↓↓↓ : ")
     print ()
     print()
     time.sleep(1)
-    print(Fore.GREEN + '')
+    print(F'{green}')
     print("_______________________")
     time.sleep(0.5)
-    print (Fore.YELLOW + '')
+    print (F'{yellow}')
     print (randi1)
     print ()
     time.sleep(0.5)
-    print(Fore.GREEN + '')
+    print(F'{green}')
     print("_______________________")
-    print (Fore.RED + '')
+    print (F'{red}')
     time.sleep(1)
     print (x)
     print ()
@@ -389,20 +397,20 @@ time.sleep(1)
 input()
 # if end    
 print ()
-print (Fore.BLUE + '')
+print (f'{blue}')
 
 baner = f"""
-
+{blue}
 ------------------
-target: {username}
-
-time spam: {timer}
-
-script: LOR
-
-time left: 1 min
+target: {green}{username}
+{blue}
+time spam: {pink}{timer}
+{blue}
+script: {yellow}LOR
+{blue}
+time left: {red}1 min{blue}
 ------------------
-
+{darkblue}
 
 ###### # #      ##### ###### #####  # #    #  ####
  #      # #        #   #      #    # # ##   # #    #
@@ -411,12 +419,12 @@ time left: 1 min
  #      # #        #   #      #   #  # #   ## #    #
  #      # ######   #   ###### #    # # #    #  ####
 
-
+{green}
 -----------------------------------
-info: [ali-lor.blogfa.com] -ali lor
+{pink}info: {yellow}[ali-lor.blogfa.com] {blue}-ali lor{green}
 -----------------------------------
 ----------------------------------
-info: [creater.blog.ir] -mmd ryson
+{pink}info: {yellow}[creater.blog.ir] {blue}-mmd ryson{green}
 ----------------------------------
 
 """
@@ -426,11 +434,10 @@ for md in baner:
     time.sleep(0.02)
 
 print ()
-print (Fore.RED + '')
 time.sleep(3)
 print()
 
-exit = input ("restart-(1) || exit-(2) ⟩⟩ ")
+exit = input (f"{red}restart{yellow}-{white}({blue}1{white}) {darkblue}|| {red}exit{yellow}-{white}({blue}2{white}) {pink}⟩⟩ {green}")
 
 if exit == 1:
     print ()
