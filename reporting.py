@@ -146,7 +146,7 @@ for mmd in spam:
     time.sleep(0.01)
 #
 
-spammer = input(f"{yellow}please enter your type spam {red}}⟩⟩ {white}")
+spammer = input(f"{yellow}please enter your type spam {red}⟩⟩ {white}")
 
 print ()
 print ()
