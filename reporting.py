@@ -8,8 +8,12 @@
 #__
 import os
 import time
+# is not colorama and colored ! 
 #___
-os.system("clear")
+try:
+    os.system("clear")
+except:
+    os.system("cls")
 
 time.sleep(0.5)
 
