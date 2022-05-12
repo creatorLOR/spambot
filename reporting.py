@@ -74,7 +74,7 @@ print (F'{yellow}')
 print ("\n"*2)
 #bnr
 banner = [f"""
-   
+{yellow}   
     \   ^__^
      \  (oo)\_______
         (__)\       )\/\
@@ -128,6 +128,9 @@ print ()
 print (F'{green}')
 
 spam = f"""
+
+       ——————————   ——————————   ——————————
+
       {red} ⟩{green} LOR SCRIPT{red} ⟨
     
             
