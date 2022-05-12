@@ -125,10 +125,10 @@ cod = (random_string_generator(size, chars))
 print ()
 time.sleep(1)
 print ()
-print (F'{green}')
+
 
 spam = f"""
-
+{pink}
        ——————————   ——————————   ——————————
 
       {red} ⟩{green} LOR SCRIPT{red} ⟨
