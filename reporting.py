@@ -352,7 +352,7 @@ if spammer == "group".lower():
     time.sleep(1)
     print()
     user1 = input(f"{green}url target check{pink}?{yellow} (y/n){pink} ⟩⟩⟩ {white}")
-    if user == "y".lower():
+    if user1 == "y".lower():
         time.sleep(0.5)
         print()
         usr1 = input(f"{blue}enter url target rubika type group  {pink}⟩⟩⟩ {white}")
